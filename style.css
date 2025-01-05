@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #772FD7;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main{
+  flex: 1;
+}
+h1{
+  text-align: center;
+  font-size: 5rem;
+}
+.logo{
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+footer{
+  font-size: 1.5rem;
+  text-align: center;
+  color: midnightblue;
+}
+.ex{
+  color: midnightblue
+}
+.des{
+  color: red
+}
+.hf{
+  color: green
+}
+.creativeMorty{
+  color: #97ce4c
+}
+.creativeRick{
+  color: 	#02afc5
+}
+.card{
+  width: 45%;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.tile-image-Morty{
+  height: 300px;
+  margin-right: 50px;
+  float: left;
+}
+.tile-image-Rick{
+  height: 300px;
+  margin-right: 50px;
+  float: left;
+}
+
+@media (max-width: 680px){
+  .logo{
+    width: 300px;
+  }
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .card img{
+    width: 50%;
+    display: inline;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  .tile-image-Rick{
+    float: right;
+  }
+}
